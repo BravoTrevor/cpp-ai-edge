@@ -1,0 +1,14 @@
+cpp-ai-edge/  
+├── src/  
+│   ├── inference.cpp        # ONNX Runtime C++ API  
+│   └── eigen_ops.cpp       # Matrix ops (like NumPy)  
+├── python/  
+│   └── bindings.cpp        # pybind11 wrapper  
+├── java/  
+│   └── jni/                # Java/Kotlin native interface  
+├── docker/  
+│   ├── x86.Dockerfile      # Cloud-optimized  
+│   └── arm64.Dockerfile    # Raspberry Pi  
+└── benchmarks/  
+    ├── cpp_vs_python.md    # Performance results  
+    └── pytorch_mnist.py    # Comparison baseline  
